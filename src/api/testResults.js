@@ -2,7 +2,8 @@ import axios from "axios";
 
 // axios 인스턴스 생성
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/testResults",
+  // baseURL: "http://localhost:5000/testResults",
+  baseURL: "https://button-maddening-library.glitch.me",
 });
 
 // 테스트 결과 조회
